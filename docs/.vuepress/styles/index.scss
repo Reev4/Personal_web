@@ -1,0 +1,56 @@
+:root {
+  --vp-c-accent: #4b3eaf;
+  --vp-c-accent-bg: #4b3eaf;
+  --vp-c-accent-hover: #6154c6;
+
+  --navbar-height: 3.6rem;
+  --sidebar-width: 20rem;
+  --content-width: 740px;
+  --homepage-width: 960px;
+}
+
+[data-theme="light"] {
+  --vp-c-text: #2c3e50;
+  --vp-c-text-mute: #4e6e8e;
+  --vp-c-border: #eaecef;
+}
+
+.definition,
+.theorem,
+.note {
+  margin: 1rem 0;
+  padding: 0.1rem 1.5rem;
+  border-radius: 0.4rem;
+
+  .title {
+    font-weight: bold;
+  }
+}
+
+.definition {
+  background-color: hsl(210deg 36% 80% / 20%);
+}
+
+.theorem {
+  background-color: hsl(141deg 64% 80% / 20%);
+}
+
+.note {
+  background-color: hsl(34deg 37% 80% / 20%);
+}
+
+main {
+  p {
+    line-height: 1.6;
+    margin-block: 0.7em;
+  }
+
+  ul {
+    margin-block: 0.6em;
+  }
+
+  li {
+    line-height: 1.6;
+    margin: 0.3em 0;
+  }
+}
